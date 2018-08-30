@@ -14,7 +14,9 @@ TargetRow = Selection.Row
 TargetCol = Selection.Column
 
 'Set the variable of the number of columns in the table
-NoOfColumns = 5
+'NoOfColumns = 5
+'Get input from the user
+NoOfColumns = InputBox("How many columns should the table have?")
 
 'loop through every cell in the selected range
 For i = 0 To Selection.Rows.Count - 1
